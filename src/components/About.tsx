@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText } from 'lucide-react';
-
+import yourPhoto from '../assets/your_photo.jpg';
 const About: React.FC = () => {
   return (
     <section id="about" className="py-16 md:py-24 bg-white dark:bg-gray-900">
@@ -10,7 +10,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="bg-blue-600 dark:bg-blue-700 absolute -left-4 -top-4 h-full w-full rounded-xl"></div>
               <img 
-                src="src\assets\your_photo.jpg" 
+                src={yourPhoto}
                 alt="Professional headshot" 
                 className="relative z-10 w-full h-auto rounded-xl object-cover aspect-[4/5] shadow-xl"
               />
