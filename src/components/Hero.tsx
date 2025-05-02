@@ -19,8 +19,8 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 dark:text-white">
-            <span className="inline-block animate-fade-in-1">Hello, I' m </span>
-            <span className="text-blue-600 dark:text-blue-400 inline-block animate-fade-in-2"> Bhavyansh Jain</span>
+            <span className="inline-block animate-fade-in-1">Hello, I'm</span>
+            <span className="text-blue-600 dark:text-blue-400 inline-block animate-fade-in-2">&nbsp; Bhavyansh Jain</span>
           </h1>
           
           <h2 className="text-xl md:text-2xl lg:text-3xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl animate-fade-in-3">
